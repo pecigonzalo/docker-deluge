@@ -4,7 +4,7 @@ MAINTAINER Gonzalo Peci <davyjones@linuxserver.io>
 #Add Deluge variable
 ENV PYTHON_EGG_CACHE="/config/plugins/.python-eggs"
 
-ENV APTLIST="deluged deluge-web deluge-console unrar unzip"
+ENV APTLIST="deluged unrar unzip"
 
 # Install Deluge
 RUN add-apt-repository ppa:deluge-team/ppa > /dev/null && \
